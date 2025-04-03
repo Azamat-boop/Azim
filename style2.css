@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+header {
+    display: flex;
+    justify-content: right;
+    gap: 33px;
+    padding: 1px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 60px;
+}
+header .logo {
+    position:absolute;
+    right: 77%;
+    top: 6px;
+}
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    font-size: 1em;
+    position: relative;
+    right: 206px;
+    font-family: "Karla", serif;
+}
+.icon_left{
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 42px;
+    left: 209px;
+    background-image: url(./photo/bx-left-arrow-alt.svg);
+    background-repeat: no-repeat;
+}
+.go_back{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding-top: 3px;
+    color:  #000000;
+    text-decoration: none;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    font-size: 48px;
+    font-weight: 400;
+    color: #081F32;
+    justify-content: center;
+}
+.information{
+    width: 157px;
+    height: 24px;
+    position: relative;
+    left: 297px;
+    top: 42px;
+}
+.text_2{
+    color: #8E8E93;
+    font-weight: 500;
+    font-size: 20px;
+}
+.text_2{
+    color: #8E8E93;
+    font-weight: 500;
+    font-size: 20px;
+}
+.episode{
+    width: 157px;
+    height: 24px;
+    position: relative;
+    left: 730px;
+    top: 18px;
+}
+.block_information{
+    width:413px;
+    height: 385px;
+    position: relative;
+    top: 36px;
+    left: 297px;
+}
+.block{
+    width: 413px;
+    height: 64px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);;
+}
+.block1{
+    width: 413px;
+    height: 80px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);;
+}
+.text_3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_3-2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_4{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_4-3{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_5{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_5-4{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_6{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+    outline: none;
+}
+.text_6-5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+    outline: none;
+}
+.text_7{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_7-6{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_8{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_8-7{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 300px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.block_Episode{
+    width:413px;
+    height: 280px;
+    position: relative;
+    bottom: 349px;
+    left: 730px;
+}
+.text_9{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 99px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_9-8{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_10{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_10-9{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_11{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_11-10{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+.text_12{
+    font-weight: 700;
+    font-size: 16px;
+    color: #081F32;
+    width: 53px;
+    height: 24px;
+    position: relative;
+    top: 9px;
+    left: 16px;
+
+}
+.text_12-11{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E798C;
+    width: 300px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+    left: 16px;
+
+}
+
+.text_9-9{
+    font-weight: 500;
+    font-size: 10px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    left: 16px;
+
+}
+.text_10-10{
+    font-weight: 500;
+    font-size: 10px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    left: 16px;
+
+}
+.text_11-11{
+    font-weight: 500;
+    font-size: 10px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    left: 16px;
+
+}
+.text_12-12{
+    font-weight: 500;
+    font-size: 10px;
+    color: #6E798C;
+    width: 100px;
+    height: 24px;
+    position: relative;
+    left: 16px;
+
+}
+@media screen and (max-width:420px) {
+    header{
+        width: 100%;
+    }
+    header .logo {
+        position:absolute;
+        right: 77%;
+        top: 6px;
+    }
+    header nav  {
+        display: none;
+    }
+    .icon_left{
+        width: 100px;
+        height: 24px;
+        position: relative;
+        top: 42px;
+        left: 24px;
+        background-image: url(./photo/bx-left-arrow-alt.svg);
+        background-repeat: no-repeat;
+    }
+    .go_back{
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        padding-top: 3px;
+        color:  #000000;
+        text-decoration: none;
+    }
+    .img img{
+        width: 146px;
+        height: 148px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+    }
+    .text{
+        display: flex;
+        font-size: 32px;
+        font-weight: 400;
+        color: #081F32;
+        justify-content: center;
+    }
+    .block_information{
+        width:312px;
+        height: 424px;
+        position: relative;
+        top: 36px;
+        left: 0px;
+    }
+    .block{
+        width: 312px;
+        height: 64px;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+        position: relative;
+        left: 18%;
+    }
+    .block1{
+        width: 312px;
+        height: 80px;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);;
+    }
+    .block_Episode{
+        width:312px;
+        height: 392px;
+        position: relative;
+        top: 52px;
+        left: 13.5%;
+    }
+    .information{
+        width: 157px;
+        height: 24px;
+        position: relative;
+        left: 24px;
+        top: 42px;
+    }
+    .episode{
+        width: 157px;
+        height: 24px;
+        position: relative;
+        left: 24px;
+        top: 465px;
+    }
+
+}
