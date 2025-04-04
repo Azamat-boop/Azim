@@ -110,13 +110,16 @@ header nav a {
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr repeat(1, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr repeat(1, 1fr); */
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
     border-radius: 6px;
     justify-content: center;
     align-items:center;
     text-align: center;
     cursor: pointer;
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
     top: 47px;
 }
@@ -155,156 +158,147 @@ top: 124px;
     box-shadow: 0px 3px 5px 0px #00000033;
     cursor:grab;
 }
-@media screen and (max-width: 420px){ 
-    header{
-        width: 100%;
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1060px;
     }
-    header .logo {
-        position:absolute;
-        right: 77%;
-        top: 6px;
+}
+@media screen and (max-width: 992px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
     }
-    header nav {
-        display: none;
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 540px;
     }
-    .global_text{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 26px;
-    }
-    .global_img{
-        width: 312px;
-        height: 104px;
-    }
-    .global_2{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .filter_name{
-        width: 312px;
-        height: 56px;
-        border-radius: 8px;
-        border: 1px solid #00000080;
-        background-image: url(./photo/Leading\ Icon.svg);
-        background-repeat: no-repeat;
-        background-position: 18px 15px;
-        position: relative;
-        left: 0px;
-        top: 32px;
-    }
-    .search{
-        width: 264px;
-        height: 54px;    
+}
+@media screen and (max-width: 480px) {
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    border-radius: 6px;
+    justify-items: center;
+    text-align: center;
+    cursor: pointer;
     position: relative;
-    left: 46px;
-    border: none;
-    color: #00000080;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border-radius: 8px;
-    }
-    .race{
-        width: 312px;
-        height: 57px;
-        border-radius: 8px;
-        border: 1px solid #00000080;
-        position: relative;
-        left: 0px;
-        top: 51px;
-    }
-    .race_22{
-        width: 312px;
-        height: 57px;
-        border-radius: 8px;
-        border: 1px solid #00000080;
-        position: relative;
-        left: 0px;
-        top: 71px;
-    }
-    .race_33{
-        width: 312px;
-        height: 57px;
-        border-radius: 8px;
-        border: 1px solid #00000080;
-        position: relative;
-        left: 0px;
-        top: 91px;
-    }
-    .race_1{
-        width: 310px;
-        height: 55px;
-        border: none; 
-        color: #00000080;
-        border-radius: 8px;
-    }
-    .race_2{
-        width: 310px;
-        height: 55px;
-        border: none;
-        color: #00000080;
-        border-radius: 8px;
-    }
-    .race_3{
-        width: 310px;
-        height: 54px;
-        border: none;
-        color: #00000080;
-        border-radius: 8px;
-    }
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap:20px;
-        row-gap: 46px;
-        margin:0 1em;
-        border-radius: 6px;
-        justify-content: center;
-        align-items:center;
-        position: relative;
-        top: 158px;
-    }
-    .card p{
-        color: #00000099;
-    }
-    .card{
-        box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.2);;
-        border-radius: 6px;
-        transition:all 0.5s;
-        height: 376px;
-    }
-    .img{
-        border-radius: 6px;
-        width: 390px;
-        height: 308px;
-    }
-    .card:hover{
-    transform: translateY(-10px);
-    }
-    .footer{
+    top: 47px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.global_2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 180px;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-top: 16px;
+}
+.filter_name,
+.race,
+.race_22,
+.race_33 {
+    width: 240px;
+    height: 56px;
+}
+.search {
+    width: 192px;
+    height: 54px; 
+}
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1060px;
     }
-    .b{
-        color: rgba(33, 150, 243, 1);
-        width: 154px;
-        height: 36px;
-        background-color: #F2F9FE;
-        border: none;
-        box-shadow: 0px 6px 10px 0px #00000024;
-        box-shadow: 0px 1px 18px 0px #0000001F;
-        box-shadow: 0px 3px 5px 0px #00000033;
-        cursor:grab;
+}
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 10px;
     }
-    .card h3{
-        margin-top: 12px;
-        margin-left: 16px;
-        @import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    header nav {
+        position: static;
     }
-    .card p{
-        margin-left: 16px;
+    .logo {
+        position: static;
     }
+    .global_2 {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .search {
+        width: 100%;
+        max-width: 400px;
+    }
+    .filter_name,
+    .race,
+    .race_22,
+    .race_33 {
+        width: 100%;
+        max-width: 400px;
+    }
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
+    }
+    .card {
+        width: 100%;
+        max-width: 240px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 540px;
+    }
+    .card {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    header nav a {
+        font-size: 0.9em;
+    }
+    .global_2 {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 1em;
+    }
+    .filter_name,
+    .race,
+    .race_22,
+    .race_33,
+    .search {
+        width: 100%;
+        max-width: 100%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+        top: 32px;
+    }
+    .card {
+        width: 100%;
+    }
+    .footer {
+        padding: 20px 0;
+        top: 100px;
+    }
+}
 }

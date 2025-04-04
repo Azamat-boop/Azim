@@ -19,7 +19,7 @@ async function updateResults() {
     resultsContainer.innerHTML = Character.length
         ? Character.map(char => 
             `<div class="card">
-            <img src="${char.image}""></img>
+            <a href="./index2.html"><img src="${char.image}""></img></a>
             <h2><strong>${char.name}</strong></h2>
             <p>Status: ${char.status}</p>
             <p>Species: ${char.species}</p>
