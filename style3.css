@@ -103,16 +103,19 @@ header nav a {
     outline: none;
 }
 .wrapper{
-    display: grid;
-    /* grid-template-columns: 240px 240px 240px 240px 240px 200px; */
-    grid-template-columns: 1fr 1fr 1fr 1fr repeat(1, 1fr);
-    row-gap: 30px;
-    border-radius: 6px;
-    justify-content: center;
-    align-items:center;
-    position: relative;
-    right: -10px;
-    top: 47px;
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr repeat(1, 1fr); */
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+        border-radius: 6px;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        cursor: pointer;
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        top: 47px;
 }
 .card p{
     display:flex;
